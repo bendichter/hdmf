@@ -366,6 +366,7 @@ class ObjectMapper(with_metaclass(ExtenderMeta, object)):
         "uint32": np.uint32,
         "uint16": np.uint16,
         "uint8": np.uint8,
+        "uint": nwb.uint32
     }
 
     __no_convert = set()
